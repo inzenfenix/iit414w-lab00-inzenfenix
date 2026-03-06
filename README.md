@@ -13,39 +13,39 @@
     ```
 3. Run the following command to create a python environment, add a dot to it to hide it from git:
     ``` bash
-        python -m venv .venv
+    python -m venv .venv
 
-        If that doesn't work try:
+    If that doesn't work try:
 
-        python3 -m venv .venv
+    python3 -m venv .venv
     ```
 
 4. Next We'll start the virtual environment:
     ``` bash
-        source .venv/bin/activate
+    source .venv/bin/activate
 
-        Some Operative Systems use different files to start, for example CachyOS uses:
+    Some Operative Systems use different files to start, for example CachyOS uses:
 
-        source .venv/bin/activate.fish
+    source .venv/bin/activate.fish
 
-        And powershell uses:
+    And powershell uses:
 
-        source .venv/bin/activate.ps1
+    source .venv/bin/activate.ps1
     ```
 
 5. Once inside the virtual environment, we can add the needed libraries:
     ``` bash
-        pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 6. To start the Notebooks, you can run the jupyter lab:
     ``` bash
-        jupyter lab
+    jupyter lab
     ```
     
     - Once that's done It will open the lab automatically with the notebook if It doesn't you can check for yourself with:
         > It will give you a bunch of lines, check for the one that looks like:
         ``` bash
-            [I 2026-03-06 20:23:26.043 ServerApp] http://localhost:8888/lab?token=6bdadd316fe5eb2941e8797c93d90e4233a49ba6e3c82dc0
+        [I 2026-03-06 20:23:26.043 ServerApp] http://localhost:8888/lab?token=6bdadd316fe5eb2941e8797c93d90e4233a49ba6e3c82dc0
         ```
     > It creates a page which you can copy and paste to your favorite browser where You'll be capable of running the notebook.
