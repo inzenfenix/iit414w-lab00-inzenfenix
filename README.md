@@ -1,9 +1,9 @@
 # Tomás Solano, InZenFenix, IIT414W, 07-03-2026
  
 ## System Info
-    - CachyOS Version 6.19.5-3
-    - Python 3.14.3
-    - pip 26.0.1
+- CachyOS Version **6.19.5-3**
+- Python **3.14.3**
+- pip **26.0.1**
 
 ## Setup Instructions
 1. Open CMD, Powershell or bash (if using linux)
