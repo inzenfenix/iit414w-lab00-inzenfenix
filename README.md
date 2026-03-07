@@ -7,7 +7,7 @@
 
 ## Setup Instructions
 1. Open CMD, Powershell or bash (if using linux)
-2. Choose the directory of this folder, for example:
+2. Choose the directory of the project, for example:
     ``` bash
     cd C:/Users/[Your_username]/Documents/Github/iit414w-lab00-inzenfenix
     ```
