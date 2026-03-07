@@ -14,8 +14,6 @@
 ## 1. Open a terminal
 Open **CMD**, **PowerShell**, or **bash** (Linux/macOS).
 
----
-
 ## 2. Navigate to the project directory
 Move to the folder where the project is located. Example:
 
