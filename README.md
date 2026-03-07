@@ -24,56 +24,56 @@ cd C:/Users/[Your_username]/Documents/Github/iit414w-lab00-inzenfenix
 ```
 
 ## 3. Create a Python virtual environment:
-    ``` bash
-    python -m venv .venv
-    ```
+``` bash
+python -m venv .venv
+```
 
-    If that command doesn't work try:
+If that command doesn't work try:
 
-    ``` bash
-    python3 -m venv .venv
-    ```
+``` bash
+python3 -m venv .venv
+```
 
 > The environment is named .venv so it stays hidden from git repositories.
 
 ## 4. Activate the virtual environment:
-    ``` bash
-    source .venv/bin/activate
-    ```
+``` bash
+source .venv/bin/activate
+```
 
 > Fish shell (used by some Linux systems like CachyOS):
-    ``` bash
-    source .venv/bin/activate.fish
-    ```
+``` bash
+source .venv/bin/activate.fish
+```
 
 > PowerShell
-    ``` bash
-    source .venv/bin/activate.ps1
-    ```
+``` bash
+source .venv/bin/activate.ps1
+```
 
 > Windows CMD
-    ``` bash
-    .venv\Scripts\activate
-    ```
+``` bash
+.venv\Scripts\activate
+```
 
 > After activation, your terminal should show (.venv) at the beginning of the prompt.
 
 ## 5. Install project dependencies
-    ``` bash
-    pip install -r requirements.txt
-    ```
+``` bash
+pip install -r requirements.txt
+```
 
 ## 6. Start JupyterLab:
-    ``` bash
-    jupyter lab
-    ```
+``` bash
+jupyter lab
+```
 
-    > JupyterLab will usually open automatically in your browser.
-    > If it does not, the terminal will show a URL similar to this:
-        ``` bash
-        http://localhost:8888/lab?token=6bdadd316fe5eb2941e8797c93d90e4233a49ba6e3c82dc0
-        ```
-    > Copy and paste this link into your browser to access the notebook interface.
+> JupyterLab will usually open automatically in your browser.
+> If it does not, the terminal will show a URL similar to this:
+``` bash
+http://localhost:8888/lab?token=6bdadd316fe5eb2941e8797c93d90e4233a49ba6e3c82dc0
+```
+> Copy and paste this link into your browser to access the notebook interface.
 
 ---
 
